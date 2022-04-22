@@ -1,8 +1,8 @@
 
 const { expect } = require('chai');
 
-describe('trial', () => {
-  it('does sth', async () => {
+describe('The homework-task canary spec', () => {
+  it('works', async () => {
     expect(true).to.equal(true);
   });
 });
