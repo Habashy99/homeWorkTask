@@ -1,0 +1,21 @@
+{
+  "name": "homework_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  }
+}
