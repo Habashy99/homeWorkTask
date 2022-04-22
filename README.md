@@ -29,7 +29,16 @@ check the migration file for more information on the table and its columns, e.g.
     - Fetching tracking records created between two given dates. Your implementation shouldn't throw if unable to retrieve any records 
     - Deleting a given TrackingRecord instance's record from db
     - Adding a new TrackingRecord record to the db
-    - Generating some statistical report exported to .txt file in the project directory
+    - Generating some statistical report exported to .txt file in the project directory. The report should look sth similar to the following: 
+    
+``` 
+The database contains {{n}} tracking records.
+Users tracked {{x}} 'food' tracking records, with values {{...foodTypes}}
+Users tracked {{y}} 'activity' tracking records, with values {{...activityTypes}}
+Users tracked {{z}} 'cost' tracking records, with total cost = {{sum}}
+
+The most tracked type is {{mostTrackedType}} with overall percentage {{allRecords[mostTrackedType].length / allRecords.length}}
+```
 
 
 ## Things to keep in mind
